@@ -13,7 +13,7 @@ import kotlinx.coroutines.runBlocking
 import org.json.JSONObject
 
 open class MoviesmodProvider : MainAPI() { // all providers must be an instance of MainAPI
-    override var mainUrl = "https://moviesmod.chat"
+    override var mainUrl = "https://moviesmod.cafe"
     override var name = "Moviesmod"
     override val hasMainPage = true
     override var lang = "en"
